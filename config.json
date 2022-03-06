@@ -1,0 +1,25 @@
+{
+    "processName": "realcugan-ncnn-vulkan.exe",
+    "args": [
+        {
+            "option": "-i",
+            "description": "输入文件 (default=1.png)",
+            "default": "1.png"
+        },
+        {
+            "option": "-o",
+            "description": "输出文件 (default=2.png)",
+            "default": "2.png"
+        },
+        {
+            "option": "-n",
+            "description": "降噪等级 (-1/0/1/2/3, default=-1)",
+            "default": "-1"
+        },
+        {
+            "option": "-s",
+            "description": "放大倍数 (1/2/3/4, default=2)",
+            "default": "2"
+        }
+    ]
+}
